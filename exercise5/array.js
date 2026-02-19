@@ -1,5 +1,14 @@
 // arrays
 let colors = ["Nevy blue", "Blue", "Cyan"]
-console.log(colors[0])
-console.log(colors[1])
-console.log(colors[2])
+console.log(colors)
+
+// push add one element
+colors.push("dark-blue")
+console.log(colors)
+
+// shift remove first element in array
+colors.shift()
+console.log(colors)
+
+// length
+console.log(colors.length)
