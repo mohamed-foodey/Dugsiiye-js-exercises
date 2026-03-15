@@ -1,0 +1,9 @@
+{
+    "name": "updyqani",
+    "age": 28,
+    "city": "New York",
+    "orders": [{"id": 1, "products":"laptop", "quantity": 2, "total": 2000},
+    { "id": 2,"products":"mouse", "quantity": 1, "total": 50},
+    { "id": 3,"products":"keyboard", "quantity": 3, "total": 150 }]
+    
+}
