@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px auto ;
+}
+
+/* Blog Card */
+.blog-post {
+    background: #fff;
+    padding: 50px 100px;
+    border-radius: 12px;
+    width: 360px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Inputs & textarea */
+.blog-post input,
+.blog-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* textarea height */
+.blog-post textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Button */
+#btn-posts {
+    width: 100%;
+    padding: 12px;
+    background: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#btn-posts:hover {
+    background: #19bcc8;
+}
+
+/* Footer */
+.all-posts {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 0;
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Posts Section */
+#posts-container {
+    width: 50%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+}
+
+
+.div-append {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 30px;              
+    padding: 30px 0;
+}
+
+/* Class-ka .posts-container ee JS-ka */
+.posts-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    
+    width: 90%;             
+    max-width: 600px;       
+    
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 10px 20px;
+}
+
+/* Sawirka dhexdiisa */
+.posts-container img {
+    width: 100%;            
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;     
+    display: block;
+
+}
+
+/* Cinwaanka post-ka */
+.posts-container h3 {
+    padding: 20px 20px 10px 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+/* Qoraalka dhexdiisa */
+.posts-container p {
+    padding: 0 20px 20px 20px;
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Container-ka ay badhamadu ku dhex jiraan (ikhiyaari) */
+.posts-container {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style-ka guud ee badhamada */
+.edit-btn, .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* Style-ka Edit (Buluug ama Cagaar) */
+.edit-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style-ka Delete (Casaan) */
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Marka badhanka la riixo (Active state) */
+.edit-btn:active, .delete-btn:active {
+    transform: scale(0.95);
+}
