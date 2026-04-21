@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden;
+}
+
+.translator-card {
+    background-color: #ffffff;
+    padding: 25px; 
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(2, 48, 71, 0.15); 
+    width: 90%;
+    max-width: 450px; 
+    border-top: 6px solid #001d3d;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #001d3d;
+    font-size: 22px; 
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #003566;
+    font-size: 13px;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 8px; 
+    border: 1.5px solid #d1d9e6;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 75px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003566;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.result-section {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #e7eff6;
+    border-radius: 8px;
+}
+
+#translatedText {
+    font-size: 16px;
+    color: #001d3d;
+    font-weight: 500;
+    margin: 0;
+}
