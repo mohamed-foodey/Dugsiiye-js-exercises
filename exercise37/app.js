@@ -26,6 +26,7 @@ function createPost() {
     
     // SAXID: Hubi in meeluhu aysan marneyn (!== "")
     if (title !== "" && content !== "" && imgUrl !== "") {
+        alert("wx soo gali")
         const post = {
             id: Date.now(),
             title: title,
